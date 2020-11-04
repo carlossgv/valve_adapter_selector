@@ -1,0 +1,9 @@
+.text-center-xs {
+    text-align: center;
+}
+
+@media (min-width: 577px) {
+    .text-center-sm {
+        text-align: right;
+    }
+}

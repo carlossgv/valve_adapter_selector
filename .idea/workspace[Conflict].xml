@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="82c35d1d-7eff-4c46-afe6-76671225276d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="5c400f24-d606-4ce6-a952-5e42b89c9143" />
+  <component name="ProjectId" id="1gecwWUU3K9cPtxBOEoHjM7t42M" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/VERSIONS" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Clouds\Google Drive\Programacion\CS50\Final Project (Web)\static" />
+      <recent name="D:\Clouds\Google Drive\Programacion\CS50\Final Project (Web)\templates" />
+      <recent name="D:\Clouds\Google Drive\Programacion\CS50\Final Project (Web)\Bray Database" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.debug run flask">
+    <configuration name="127.0.0.1:5000" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://127.0.0.1:5000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="apptester" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Final Project (Web)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="FLASK_DEBUG" value="True" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apptester.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="debug run flask" type="PythonConfigurationType" factoryName="Python">
+      <module name="Final Project (Web)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="FLASK_DEBUG" value="True" />
+        <env name="FLASK_APP" value="app.py" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Clouds\Google Drive\Programacion\CS50\Final Project (Web)\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.apptester" />
+      <item itemvalue="Python.debug run flask" />
+      <item itemvalue="JavaScript Debug.127.0.0.1:5000" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.127.0.0.1:5000" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82c35d1d-7eff-4c46-afe6-76671225276d" name="Default Changelist" comment="" />
+      <created>1598478738575</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598478738575</updated>
+      <workItem from="1600208492256" duration="119000" />
+      <workItem from="1600545947484" duration="313000" />
+      <workItem from="1600546401230" duration="29239000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="379" y="528" key="#Notifications" timestamp="1600552815047">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="379" y="528" key="#Notifications/0.0.2560.1400@0.0.2560.1400" timestamp="1600552815047" />
+    <state x="873" y="342" key="#Plugins" timestamp="1599773353143">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="873" y="342" key="#Plugins/0.0.2560.1400@0.0.2560.1400" timestamp="1599773353143" />
+    <state x="95" y="359" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600567594030">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="57" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1598578838352" />
+    <state x="95" y="359" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1600567594030" />
+    <state x="379" y="506" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598480227007">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="379" y="506" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1598480227007" />
+    <state x="420" y="409" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1599773743648">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="420" y="409" key="#com.intellij.ide.macro.MacrosDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1599773743648" />
+    <state x="328" y="436" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600546206599">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="328" y="436" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1600546206599" />
+    <state x="178" y="355" key="DBNavigator.ProjectSettingsDialog" timestamp="1600552833662">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="178" y="355" key="DBNavigator.ProjectSettingsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1600552833662" />
+    <state x="508" y="459" width="637" height="488" key="EnvironmentVariablesDialog" timestamp="1599774020868">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="508" y="459" width="637" height="488" key="EnvironmentVariablesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1599774020868" />
+    <state x="420" y="459" key="FileChooserDialogImpl" timestamp="1600570411872">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="420" y="459" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1600570411872" />
+    <state width="1235" height="363" key="GridCell.Tab.0.bottom" timestamp="1600576125193">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="746" height="212" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598580523632" />
+    <state width="1235" height="363" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1600576125193" />
+    <state width="1235" height="363" key="GridCell.Tab.0.center" timestamp="1600576125193">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="746" height="212" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598580523632" />
+    <state width="1235" height="363" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1600576125193" />
+    <state width="1235" height="363" key="GridCell.Tab.0.left" timestamp="1600576125193">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="746" height="212" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598580523630" />
+    <state width="1235" height="363" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1600576125193" />
+    <state width="1235" height="363" key="GridCell.Tab.0.right" timestamp="1600576125193">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="746" height="212" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598580523632" />
+    <state width="1235" height="363" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1600576125193" />
+    <state width="1235" height="363" key="GridCell.Tab.1.bottom" timestamp="1600576125194">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1235" height="363" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1600576125194" />
+    <state width="1235" height="363" key="GridCell.Tab.1.center" timestamp="1600576125194">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1235" height="363" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1600576125194" />
+    <state width="1235" height="363" key="GridCell.Tab.1.left" timestamp="1600576125194">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1235" height="363" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1600576125194" />
+    <state width="1235" height="363" key="GridCell.Tab.1.right" timestamp="1600576125194">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1235" height="363" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1600576125194" />
+    <state width="1235" height="363" key="GridCell.Tab.2.bottom" timestamp="1600548010958">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1235" height="363" key="GridCell.Tab.2.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1600548010958" />
+    <state width="1235" height="363" key="GridCell.Tab.2.center" timestamp="1600548010958">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1235" height="363" key="GridCell.Tab.2.center/0.0.2560.1400@0.0.2560.1400" timestamp="1600548010958" />
+    <state width="1235" height="363" key="GridCell.Tab.2.left" timestamp="1600548010958">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1235" height="363" key="GridCell.Tab.2.left/0.0.2560.1400@0.0.2560.1400" timestamp="1600548010958" />
+    <state width="1235" height="363" key="GridCell.Tab.2.right" timestamp="1600548010958">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1235" height="363" key="GridCell.Tab.2.right/0.0.2560.1400@0.0.2560.1400" timestamp="1600548010958" />
+    <state x="149" y="345" key="SettingsEditor" timestamp="1600570907729">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="155" y="115" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598578762888" />
+    <state x="149" y="345" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1600570907729" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="sizeArray" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Final_Project__Web_$debug_run_flask.coverage" NAME="debug run flask Coverage Results" MODIFIED="1600573622137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Final_Project__Web_$apptester.coverage" NAME="apptester Coverage Results" MODIFIED="1600555974345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

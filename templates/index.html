@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Valves Adapter Selector</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+
+    <div id="header" class="container text-center bg-dark text-light">
+        <h2>ADAPTER SLEEVE AND MOUNTING KIT SELECTOR</h2>
+    </div>
+    <div id="main">
+
+        <div id="inputs_header" class="container text-center text-danger">
+            <h3>FOR BUTTERFLY AND BALL VALVES</h3>
+        </div>
+
+        <div class="container mt-4" id="form">
+<!--            <div class="row">-->
+                <form method="post" name="form">
+                    {{ form.csrf_token }}
+                    <div class="row justify-content-center">
+                        <div class="col-sm-3 text-center font-weight-bold">
+<!--                            <span class="align-middle">Brand:</span>-->
+                            Brand:
+                        </div>
+                        <div class="col-sm-3">
+                             {{ form.brand(class_="custom-select text-center") }}
+                        </div>
+                    </div>
+                    <div class="row mt-2 justify-content-center">
+                        <div class="col-sm-3 text-center font-weight-bold">
+<!--                            <span class="align-middle">Brand:</span>-->
+                            Series:
+                        </div>
+                        <div class="col-sm-3">
+                             {{ form.serie(class_="custom-select text-center") }}
+                        </div>
+                    </div>
+                    <div class="row mt-2 justify-content-center">
+                        <div class="col-sm-3 text-center font-weight-bold">
+<!--                            <span class="align-middle">Brand:</span>-->
+                            Size:
+                        </div>
+                        <div class="col-sm-3">
+                             {{ form.size(class_="custom-select text-center") }}
+                        </div>
+                    </div>
+                    <div class="row mt-2 justify-content-center">
+                        <div class="col-sm-3 text-center font-weight-bold">
+<!--                            <span class="align-middle">Brand:</span>-->
+                            Actuator Type:
+                        </div>
+                        <div class="col-sm-3">
+                             {{ form.act_type(class_="custom-select text-center") }}
+                        </div>
+                    </div>
+                    <div class="row mt-2 justify-content-center">
+                        <div class="col-sm-3 text-center font-weight-bold">
+<!--                            <span class="align-middle">Brand:</span>-->
+                            Actuator Size:
+                        </div>
+                        <div class="col-sm-3">
+                             {{ form.act_size(class_="custom-select text-center") }}
+                        </div>
+                    </div>
+                    <div class="row mt-4 justify-content-center">
+                        <button class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+<!--            </div>-->
+        </div>
+
+        <div class="container pt-4">
+            <h3 class="text-center">{{ result }}</h3>
+        </div>
+        <div class="container pt-1">
+            <h3 class="text-center">{{ part_number }}</h3>
+        </div>
+
+    </div>
+
+    <div id="footer" class="container fixed-bottom text-center bg-dark text-light h-10">
+        <div class="row justify-content-center align-self-center">MADE BY CARLOS GONZALEZ CARLOSSGV@GMAIL.COM</div>
+    </div>
+
+    <script>
+        let brand_select = document.getElementById("brand");
+        let serie_select = document.getElementById("serie");
+        let size_select = document.getElementById("size");
+        let act_type_select = document.getElementById("act_type");
+        let act_size_select = document.getElementById("act_size");
+
+        brand_select.onchange = function () {
+            brand = brand_select.value;
+
+            fetch('/serie/' + brand).then(function (response) {
+
+                response.json().then(function (data) {
+                    let optionHTML = '';
+
+                    for (let serie of data.series) {
+                        optionHTML += '<option value="' + serie + '">' + serie + '</option>';
+                    }
+
+                    serie_select.innerHTML = optionHTML;
+
+                });
+            });
+        }
+        serie_select.onchange = function () {
+            brand = brand_select.value;
+            serie = serie_select.value;
+
+            fetch('/size/' + serie + '/' + brand).then(function (response) {
+
+                response.json().then(function (data) {
+                    let optionHTML = '';
+
+                    for (let size of data.sizes) {
+                        optionHTML += '<option value="' + size + '">' + size + '</option>';
+                    }
+
+                    size_select.innerHTML = optionHTML;
+
+                });
+            });
+        }
+
+        act_type_select.onchange = function () {
+            act_type = act_type_select.value;
+
+            fetch('/act_size/' + act_type).then(function (response) {
+
+                response.json().then(function (data) {
+                    let optionHTML = '';
+
+                    for (let act_size of data.act_sizes) {
+                        optionHTML += '<option value="' + act_size + '">' + act_size + '</option>';
+                    }
+
+                    act_size_select.innerHTML = optionHTML;
+
+                });
+            });
+        }
+    </script>
+</body>
+</html>
