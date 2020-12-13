@@ -15,7 +15,8 @@ def create_connection(path):
 def get_adapter(brand, serie, size, act_type, act_size):
 
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-    db_path = os.path.join(BASE_DIR, "Bray_Database.db")
+    db_path = os.path.join(BASE_DIR, "postgres://umegczflkjlthm:994a074c6a9844cfae6294a00b433acfb856241465441ae360467da2494886a6@ec2-50-19-26-235.compute-1.amazonaws.com:5432/det01m93m70fln
+")
     print(db_path)
 
     db = create_connection(db_path)
