@@ -9,13 +9,8 @@ app = Flask(__name__)
 SECRET_KEY = os.urandom(32)
 app.config['SECRET_KEY'] = SECRET_KEY
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-db_path = os.path.join(BASE_DIR, "postgres://umegczflkjlthm:994a074c6a9844cfae6294a00b433acfb856241465441ae360467da2494886a6@ec2-50-19-26-235.compute-1.amazonaws.com:5432/det01m93m70fln
-")
-
-db = create_connection(db_path)
-
-# db = create_connection("Bray_Database.db")
+db = create_connection("Bray_Database.db")
+print(db)
 
 
 class Form(FlaskForm):
@@ -34,15 +29,7 @@ def index():
         form = Form()
 
         form.brand.choices = [row[0] for row in db.execute("SELECT DISTINCT BRAND FROM VALVES ORDER BY BRAND ASC")]
-        # form.serie.choices = [row[0] for row in db.execute("SELECT DISTINCT SERIE FROM VALVES WHERE BRAND = 'BRAY' "
-        #                                                    "ORDER BY SERIE ASC")]
-        # form.size.choices = [row[0] for row in db.execute("SELECT DISTINCT SIZE FROM VALVES WHERE BRAND = 'BRAY' AND "
-        #                                                   "SERIE = 'S20' ORDER BY SIZE ASC")]
         form.act_type.choices = [row[0] for row in db.execute("SELECT DISTINCT TYPE FROM ACTUATORS ORDER BY TYPE ASC")]
-        # form.act_size.choices = [row[0] for row in db.execute("SELECT DISTINCT SIZE FROM ACTUATORS "
-        #                                                       "WHERE TYPE = 'ELECTRIC' ORDER BY SIZE ASC")]
-
-
 
         return render_template('index.html', form=form)
 
